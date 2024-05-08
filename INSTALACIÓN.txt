@@ -1,0 +1,28 @@
+
+
+Instalar Primero: 
+Composer 
+xampp v3.3.0 / 7.++
+node js 0.11.0
+
+
+BD: 
+Crear base de datos en phpmyadmin
+- Nombre: mps
+- Tipo: Cotejamiento/ Collation
+
+
+Abrir cmd (administrador):
+1- Extraer rar en xampp/htdocs
+2- run : composer install
+3- run : php artisan migrate 
+4- run : php artisan db:seed --class=SettingsSeeder
+5- run : npm run watch
+6 - editar baseurl en : resources\js\app.js
+
+
+
+
+Ingreso al Sistema:
+Email : doctor@gmail.com 
+password : doctorino
